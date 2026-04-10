@@ -141,7 +141,7 @@
 //     }
 //     return console.log("Bye");
 // };
-// showmovie(33);
+// showmovie(2);
 
 // const a = () =>
 // {
@@ -170,4 +170,50 @@
 //-------------------HOMEWORK---------------------------
 
 
+//------1-------
 
+// function checkAge(age)
+// {
+//     if (age > 18)
+//     {
+//         return console.log(true);
+//     }
+
+//     else
+//     {
+//         return confirm('ТЫ АХУЕЛ?');
+//     }
+// };
+// checkAge(10);
+
+
+//--------------2---------------
+
+// function min(a, b)
+// {
+//     return a < b ? a : b;
+// }
+// console.log(min(3459, 2987));
+
+// const min = (a, b) => Math.min(a, b);
+// console.log(min(200, 100));
+
+
+//--------3--------
+
+// function ask(question, yes, no)
+// {
+//     if (confirm(question)) yes();
+//     else no();
+// }
+// ask("confirm?",
+//     function () { alert('you confirm') },
+//     function () { alert("you didn't confirm") });
+
+// const Ask = (question, yes, no) => {
+//     if (confirm(question)) yes();
+//     else no();
+// };
+// Ask("confirm?",
+//      function () { alert('you confirm') },
+//      function () { alert("you didn't confirm") });

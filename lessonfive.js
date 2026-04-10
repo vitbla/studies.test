@@ -177,7 +177,8 @@
 
 // const cart =
 // {
-//     showitems() {
+//     showitems()
+// {
 //         console.log("In basket: ", this.items);
 //     },
 // };
@@ -212,14 +213,131 @@
 //     showinfo: function ()
 //     {
 //         console.log("Car " + this.name + " model " + this.mode + " color " + this.color);
-//     },
+//     }
 // };
-// car2 = 
+// car2 =
 // {
 //     name: "Opel",
 //     mode: "XXX",
-//     color: "red",
+//     color: "red"
 // }
 // infocar.showinfo.bind(car2)();
 // infocar.showinfo.call(car2);
 // infocar.showinfo.apply(car2);
+
+//--------homework--------
+
+
+//-------1-------
+
+// const infostudent =
+// {
+//     name: "illya",
+//     speciality: "biomechanics",
+//     average_score: "150",
+//     average_lesson: "10",
+//     showinfo: function ()
+//     {
+//         console.log("\n name: " + this.name + "\n speciality: " + this.speciality + "\n average_score: " + this.average_score + "\n average_lesson: " + this.average_lesson);
+//     },
+// };
+// infostudent2 =
+// {
+//     name: "Artem",
+//     speciality: "Programermechanic",
+//     average_score: "170",
+//     average_lesson: "15"
+// }
+// infostudent3 =
+// {
+//     name: "Yarik",
+//     speciality: "Bezdar",
+//     average_score: "3",
+//     average_lesson: "99"
+// }
+// infostudent.showinfo.call(infostudent2);
+// infostudent.showinfo.bind(infostudent)();
+// infostudent.showinfo.apply(infostudent3);
+
+
+//------2-----
+// const info =
+// {
+//     showInfo() {
+//         console.log("Info: ", this.info[0]);
+//     },
+// };
+// const HTML =
+// {
+//     info: [`https://ru.wikipedia.org/wiki/HTML`],
+// };
+// const CSS =
+// {
+//     info: ["https://ru.wikipedia.org/wiki/CSS"],
+// };
+// document
+//     .querySelector("#button1")
+//     .addEventListener("click", info.showInfo.bind(HTML))
+// document
+//     .querySelector("#button2")
+//     .addEventListener("click", info.showInfo.bind(CSS))
+
+//при помощи гугла
+// const info =
+// {
+//     showInfo()
+//     {
+//         const output = document.querySelector("#output");
+//         const link = this.info[0]; // Берем первый элемент из массива info
+
+//         // Очищаем старую ссылку и добавляем новую
+//         output.innerHTML = `<a href="${link}" target="_blank">Открыть Википедию: ${link}</a>`;// первый раз такое вижу??????
+
+//         // Также оставим вывод в консоль
+//         console.log("Ссылка выведена на экран:", link);
+//     },
+// };
+// const HTML =
+// {
+//     info: [`https://ru.wikipedia.org/wiki/HTML`],
+// };
+// const CSS =
+// {
+//     info: ["https://ru.wikipedia.org/wiki/CSS"],
+// };
+// document
+//     .querySelector("#button1")
+//     .addEventListener("click", info.showInfo.bind(HTML))
+// document
+//     .querySelector("#button2")
+//     .addEventListener("click", info.showInfo.bind(CSS))
+
+
+//---------3--------
+
+// const infomarket =
+// {
+//     name:"Banana",
+//     cost_for_kg: 4.5,
+//     value: 30
+// }
+// const infomarket2 =
+// {
+//     name: "Orange",
+//     cost_for_kg: 3.4,
+//     value: 89
+// }
+// const infomarket3 =
+// {
+//     name:"Chery",
+//     cost_for_kg: 1.3,
+//     value: 58
+// }
+// const market =
+// {
+//     showinfo()
+//     {
+//         console.log(infomarket, infomarket2, infomarket3);
+//     }
+// }
+// market.showinfo();
