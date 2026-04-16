@@ -175,4 +175,81 @@
 
 //interface
 
+//homework
+
+
+// class user {
+//     constructor(props)
+//     {
+//         if (props.name)
+//         {
+//             const [fname, lname, ageFromStr] = props.name.split(" ");
+//             this.firstname = fname;
+//             this.lastname = lname;
+//             this.age = ageFromStr;
+//         }
+//         if (props.firstname) this.firstname = props.firstname;
+//         if (props.lastname) this.lastname = props.lastname;
+//         if (props.age) this.age = props.age;
+//         if (props.city) this.city = props.city;
+//     }
+//     get name()
+//     {
+//         return[
+//     `first name : ${this.firstname}`,
+//     `last name : ${this.lastname}`,
+//     `Age : ${this.age}`,
+//     `City : ${this.city || "Not specified"}`
+//     ].join('\n');
+//     }
+// }
+// const Ill = new user
+//     ({
+//         name: "Illya Sheva 33",
+//         age: "22",
+//         city:"Kyiv"
+//     });
+// const Mas = new user
+//     ({
+//         name: "Masha Sheva 15",
+//         age: "25"
+//     });
+// console.log(Ill.name);
+// console.log(Mas.name);
+
+
+// class Abonent
+// {
+//     constructor()
+//     {
+//         this.name = "";
+//         this.phone = "";
+//     }
+
+//     setData(name, phone)
+//     {
+//         this.name = name;
+//         this.phone = phone;
+//     }
+
+//     getInfo()
+//     {
+//         return `Abonent: ${this.name}, \nNumber: ${this.phone}`;
+//     }
+// }
+
+// const user1 = new Abonent();
+// const user2 = new Abonent();
+// const user3 = new Abonent();
+
+// user1.setData("Alex", "+23654632432423");
+// user2.setData("Dep", "+2453545535545435");
+// user3.setData("Voly", "+2435345345345435");
+
+// console.log(user1.getInfo());
+// console.log(user2.getInfo());
+// console.log(user3.getInfo());
+
+
+
 
